@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CudafyModule Version="1.29.5576.13786" Name="Calculations" DebugInfo="false" HasCudaSourceCode="false" HasPTX="false" HasBinary="false">
+  <CudaSourceCode></CudaSourceCode>
+  <PTXMODULES />
+  <BinaryModules />
+  <SourceCodes>
+    <SourceCodeFile ID="4cd66c79-43f9-49ac-8e45-de0180b8eb4e" Language="OpenCL" Arch="OpenCL">I2lmIGRlZmluZWQoY2xfa2hyX2ZwNjQpDQojcHJhZ21hIE9QRU5DTCBFWFRFTlNJT04gY2xfa2hyX2ZwNjQ6IGVuYWJsZQ0KI2VsaWYgZGVmaW5lZChjbF9hbWRfZnA2NCkNCiNwcmFnbWEgT1BFTkNMIEVYVEVOU0lPTiBjbF9hbWRfZnA2NDogZW5hYmxlDQojZW5kaWYNCg0KLy8gTWFuZGVsYnJvdFNldC5DYWxjdWxhdGlvbnMNCiAgaW50IEdldEl0ZXJhdGlvbihkb3VibGUgeDAsIGRvdWJsZSB5MCk7DQovLyBNYW5kZWxicm90U2V0LkNhbGN1bGF0aW9ucw0KICBkb3VibGUgVHJhbnNmb3JtTnVtYmVyKGRvdWJsZSB4LCBpbnQgc3RhcnRYLCBpbnQgZW5kWCwgZG91YmxlIHRvU3RhcnRYLCBkb3VibGUgdG9FbmRYKTsNCi8vIE1hbmRlbGJyb3RTZXQuQ2FsY3VsYXRpb25zDQpfX2tlcm5lbCAgdm9pZCBHZXRWYWx1ZXMoZ2xvYmFsIHVuc2lnbmVkIGNoYXIqIHJnYlZhbHVlcywgaW50IHJnYlZhbHVlc0xlbjAsIGRvdWJsZSB6b29tLCBpbnQgc3RyaWRlLCBpbnQgaGVpZ2h0LCBpbnQgb2ZmWCwgaW50IG9mZlkpOw0KDQovLyBNYW5kZWxicm90U2V0LkNhbGN1bGF0aW9ucw0KICBpbnQgR2V0SXRlcmF0aW9uKGRvdWJsZSB4MCwgZG91YmxlIHkwKQ0Kew0KCWRvdWJsZSBudW0gPSAwLjA7DQoJZG91YmxlIG51bTIgPSAwLjA7DQoJaW50IG51bTMgPSAwOw0KCXdoaWxlIChudW0gKiBudW0gKyBudW0yICogbnVtMiA8PSA0LjAgJiYgbnVtMyA8IDEwMDApDQoJew0KCQlkb3VibGUgbnVtNCA9IG51bSAqIG51bSAtIG51bTIgKiBudW0yICsgeDA7DQoJCW51bTIgPSAyLjAgKiBudW0gKiBudW0yICsgeTA7DQoJCW51bSA9IG51bTQ7DQoJCW51bTMrKzsNCgl9DQoJcmV0dXJuIG51bTM7DQp9DQovLyBNYW5kZWxicm90U2V0LkNhbGN1bGF0aW9ucw0KICBkb3VibGUgVHJhbnNmb3JtTnVtYmVyKGRvdWJsZSB4LCBpbnQgc3RhcnRYLCBpbnQgZW5kWCwgZG91YmxlIHRvU3RhcnRYLCBkb3VibGUgdG9FbmRYKQ0Kew0KCWludCBudW0gPSBlbmRYIC0gc3RhcnRYOw0KCXJldHVybiB4IC8gKGRvdWJsZSludW0gKiAodG9FbmRYIC0gdG9TdGFydFgpICsgdG9TdGFydFg7DQp9DQovLyBNYW5kZWxicm90U2V0LkNhbGN1bGF0aW9ucw0KX19rZXJuZWwgIHZvaWQgR2V0VmFsdWVzKGdsb2JhbCB1bnNpZ25lZCBjaGFyKiByZ2JWYWx1ZXMsIGludCByZ2JWYWx1ZXNMZW4wLCBkb3VibGUgem9vbSwgaW50IHN0cmlkZSwgaW50IGhlaWdodCwgaW50IG9mZlgsIGludCBvZmZZKQ0Kew0KCWludCBudW0gPSBnZXRfbG9jYWxfaWQoMCkgKyBnZXRfZ3JvdXBfaWQoMCkgKiBnZXRfbG9jYWxfc2l6ZSgwKTsNCglpbnQgbnVtMiA9IGdldF9sb2NhbF9zaXplKDApICogZ2V0X251bV9ncm91cHMoMCk7DQoJYm9vbCBmbGFnID0gbnVtIDwgcmdiVmFsdWVzTGVuMDsNCglpZiAoZmxhZykNCgl7DQoJCWZvciAoaW50IGkgPSBudW07IGkgPCBzdHJpZGUgLyAzICogaGVpZ2h0OyBpICs9IG51bTIpDQoJCXsNCgkJCWludCBudW0zID0gaSAlIChzdHJpZGUgLyAzKTsNCgkJCWludCBudW00ID0gaSAvIChzdHJpZGUgLyAzKTsNCgkJCWludCBpdGVyYXRpb24gPSBHZXRJdGVyYXRpb24oVHJhbnNmb3JtTnVtYmVyKChkb3VibGUpKG51bTMgKyBvZmZYKSwgMCwgc3RyaWRlIC8gMywgLXpvb20sIHpvb20pLCBUcmFuc2Zvcm1OdW1iZXIoKGRvdWJsZSkobnVtNCArIG9mZlkpLCAwLCBoZWlnaHQsIC16b29tLCB6b29tKSk7DQoJCQl1bnNpZ25lZCBjaGFyIGIgPSAodW5zaWduZWQgY2hhcikoKGZsb2F0KWl0ZXJhdGlvbiAvIDEwMDAuMGYgKiAyNTUuMGYpOw0KCQkJaW50IG51bTUgPSBudW00ICogc3RyaWRlICsgbnVtMyAqIDM7DQoJCQlyZ2JWYWx1ZXNbKG51bTUpXSA9IGI7DQoJCQlyZ2JWYWx1ZXNbKG51bTUgKyAxKV0gPSBiOw0KCQkJcmdiVmFsdWVzWyhudW01ICsgMildID0gYjsNCgkJfQ0KCX0NCn0NCg==</SourceCodeFile>
+  </SourceCodes>
+  <Functions>
+    <CudafyKernelMethod Name="GetIteration" Type="Device" IsDummy="false" DummyBehaviour="Default">
+      <Type>MandelbrotSet.Calculations</Type>
+      <Assembly>MandelbrotSet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+      <AssemblyName>MandelbrotSet</AssemblyName>
+      <AssemblyPath>c:\CSharpProblems\MandelbrotSet\MandelbrotSet\bin\Debug\MandelbrotSet.exe</AssemblyPath>
+      <Checksum>3687761160</Checksum>
+      <Parameters>
+        <ReturnType>System.Int32</ReturnType>
+        <Parameter Type="System.Double" Name="x0" Position="0" />
+        <Parameter Type="System.Double" Name="y0" Position="1" />
+      </Parameters>
+    </CudafyKernelMethod>
+    <CudafyKernelMethod Name="TransformNumber" Type="Device" IsDummy="false" DummyBehaviour="Default">
+      <Type>MandelbrotSet.Calculations</Type>
+      <Assembly>MandelbrotSet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+      <AssemblyName>MandelbrotSet</AssemblyName>
+      <AssemblyPath>c:\CSharpProblems\MandelbrotSet\MandelbrotSet\bin\Debug\MandelbrotSet.exe</AssemblyPath>
+      <Checksum>3687761160</Checksum>
+      <Parameters>
+        <ReturnType>System.Double</ReturnType>
+        <Parameter Type="System.Double" Name="x" Position="0" />
+        <Parameter Type="System.Int32" Name="startX" Position="1" />
+        <Parameter Type="System.Int32" Name="endX" Position="2" />
+        <Parameter Type="System.Double" Name="toStartX" Position="3" />
+        <Parameter Type="System.Double" Name="toEndX" Position="4" />
+      </Parameters>
+    </CudafyKernelMethod>
+    <CudafyKernelMethod Name="GetValues" Type="Global" IsDummy="false" DummyBehaviour="Default">
+      <Type>MandelbrotSet.Calculations</Type>
+      <Assembly>MandelbrotSet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+      <AssemblyName>MandelbrotSet</AssemblyName>
+      <AssemblyPath>c:\CSharpProblems\MandelbrotSet\MandelbrotSet\bin\Debug\MandelbrotSet.exe</AssemblyPath>
+      <Checksum>3687761160</Checksum>
+      <Parameters>
+        <ReturnType>System.Void</ReturnType>
+        <Parameter Type="Cudafy.GThread" Name="thread" Position="0" />
+        <Parameter Type="System.Byte[]" Name="rgbValues" Position="1" />
+        <Parameter Type="System.Double" Name="zoom" Position="2" />
+        <Parameter Type="System.Int32" Name="stride" Position="3" />
+        <Parameter Type="System.Int32" Name="height" Position="4" />
+        <Parameter Type="System.Int32" Name="offX" Position="5" />
+        <Parameter Type="System.Int32" Name="offY" Position="6" />
+      </Parameters>
+    </CudafyKernelMethod>
+  </Functions>
+  <Constants />
+  <Types />
+</CudafyModule>

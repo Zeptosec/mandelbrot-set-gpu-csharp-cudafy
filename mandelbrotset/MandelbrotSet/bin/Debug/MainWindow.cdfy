@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CudafyModule Version="1.29.5576.13786" Name="MainWindow" DebugInfo="false" HasCudaSourceCode="false" HasPTX="false" HasBinary="false">
+  <CudaSourceCode></CudaSourceCode>
+  <PTXMODULES />
+  <BinaryModules />
+  <SourceCodes>
+    <SourceCodeFile ID="f17639d3-1493-403e-8ba2-9a51cb08c7ac" Language="OpenCL" Arch="OpenCL">I2lmIGRlZmluZWQoY2xfa2hyX2ZwNjQpDQojcHJhZ21hIE9QRU5DTCBFWFRFTlNJT04gY2xfa2hyX2ZwNjQ6IGVuYWJsZQ0KI2VsaWYgZGVmaW5lZChjbF9hbWRfZnA2NCkNCiNwcmFnbWEgT1BFTkNMIEVYVEVOU0lPTiBjbF9hbWRfZnA2NDogZW5hYmxlDQojZW5kaWYNCg0KLy8gTWFuZGVsYnJvdFNldC5NYWluV2luZG93DQpfX2tlcm5lbCAgdm9pZCBTdW1PZlNpbmVzKGludCBfaXRlcmF0aW9ucywgZ2xvYmFsIGRvdWJsZSogVmFsdWUsIGludCBWYWx1ZUxlbjApOw0KDQovLyBNYW5kZWxicm90U2V0Lk1haW5XaW5kb3cNCl9fa2VybmVsICB2b2lkIFN1bU9mU2luZXMoaW50IF9pdGVyYXRpb25zLCBnbG9iYWwgZG91YmxlKiBWYWx1ZSwgaW50IFZhbHVlTGVuMCkNCnsNCglpbnQgbnVtID0gZ2V0X2xvY2FsX2lkKDApICsgZ2V0X2dyb3VwX2lkKDApICogZ2V0X2xvY2FsX3NpemUoMCk7DQoJaW50IG51bTIgPSBnZXRfbG9jYWxfc2l6ZSgwKSAqIGdldF9udW1fZ3JvdXBzKDApOw0KCWJvb2wgZmxhZyA9IG51bSA8IF9pdGVyYXRpb25zOw0KCWlmIChmbGFnKQ0KCXsNCgkJZm9yIChpbnQgaSA9IG51bTsgaSA8IF9pdGVyYXRpb25zOyBpICs9IG51bTIpDQoJCXsNCgkJCWRvdWJsZSBudW0zID0gMC4wMTc0NTMyOTI1MTk5NDMzOw0KCQkJVmFsdWVbKGkpXSA9IDAuMDsNCgkJCWZvciAoaW50IGogPSAwOyBqIDwgMTAwOyBqKyspDQoJCQl7DQoJCQkJZG91YmxlIG51bTQgPSAoZG91YmxlKWogKiBudW0zOw0KCQkJCVZhbHVlWyhpKV0gKz0gMS4wOw0KCQkJfQ0KCQl9DQoJfQ0KfQ0K</SourceCodeFile>
+  </SourceCodes>
+  <Functions>
+    <CudafyKernelMethod Name="SumOfSines" Type="Global" IsDummy="false" DummyBehaviour="Default">
+      <Type>MandelbrotSet.MainWindow</Type>
+      <Assembly>MandelbrotSet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+      <AssemblyName>MandelbrotSet</AssemblyName>
+      <AssemblyPath>c:\CSharpProblems\MandelbrotSet\MandelbrotSet\bin\Debug\MandelbrotSet.exe</AssemblyPath>
+      <Checksum>776134075</Checksum>
+      <Parameters>
+        <ReturnType>System.Void</ReturnType>
+        <Parameter Type="Cudafy.GThread" Name="thread" Position="0" />
+        <Parameter Type="System.Int32" Name="_iterations" Position="1" />
+        <Parameter Type="System.Double[]" Name="Value" Position="2" />
+      </Parameters>
+    </CudafyKernelMethod>
+  </Functions>
+  <Constants />
+  <Types />
+</CudafyModule>
